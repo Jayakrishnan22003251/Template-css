@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Marvel</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #ffaf00;;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .search-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-section select {
+            padding: 10px;
+            font-size: 1.2em;
+        }
+        .search-section button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #ffaf01;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .destination {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        .destination h3 {
+            margin-top: 10px;
+        }
+        .destination p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .destination a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ffaf01;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .destination, .contact-us {
+            background-color: #ffe6cc; /* Light match to golden orange */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .contact-us {
+            background-color: #eceae6; /* Golden orange color */
+            color: rgb(10, 10, 10);
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            margin: 20px auto;
+            width: 80%;
+            max-width: 350px;
+            border-radius: 10px;
+        }
+        .contact-us h2 {
+            margin-bottom: 20px;
+        }
+        .contact-us form {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .contact-us input, .contact-us select {
+            width: calc(100% - 22px); /* Adjust for padding */
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .contact-us button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #ffaf01;
+            color: rgb(20, 16, 16);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-us button:hover {
+            background-color: #c7c4bf;
+        }
+        footer{
+            background-color: #e3e2e2e9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <h2>Discover the Spiritual and Architectural Wonders of Tamil Nadu</h2>
+    <img src="picture/public.jpg" alt="Adventure Image" class="header-image" width="80%">
+    <p>Welcome to Explorer</p>
+</header>
+
+<div class="search-section">
+    <select>
+        <option>Select a Destination</option>
+        <option>Thanjavur</option>
+        <option>Kanchipuram</option>
+        <option>Madurai</option>
+        <option>Thiruvannamalai</option>
+        <option>Srirangam</option>
+    </select>
+    <button>Explore</button>
+</div>
+
+<div class="destinations">
+    <div class="destination">
+        <img src="picture/image1.jpg" alt="Destination Image">
+        <h3>"Peruvudaiyar Temple"</h3>
+        <h3> "A timeless masterpiece of Chola architecture."</h3>
+        <p>One of the largest temples in India, the Brihadeeswara Temple also known as Peruvudaiyar Kovil is located in Thanjavur. Dedicate to Lord Shiva represented as a huge ‘Lingam’, the temple was built around 1010 AD by the Chola king Rajaraja Chola I. Considered as one of the three ‘Great Living Chola Temples’ along with the Gangaikondacholeeswaram Temple and Airavastesvara Temple, the complex is also listed as a part of the UNESCO World Heritage Sites. One of the main attractions of the temple is a big statue of Nandi, the sacred bull of Lord Shiva. 13 ft high and 16 ft wide, the statue is sculpted out of a single rock. Fortified walls rich in elaborate rock art works surround the temple and give a grand look to the entire complex. The main temple tower is 216 ft high and the tallest of its kind in the world. The complete structure of the temple is made out of granite. The main ‘Gopurams’ or gateways to the temple are splendid structures with detailed sculptures. </p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/brihadeeswara-temple"target="_blank">Read More</a>
+    </div>
+    <div class="destination">
+        <img src="picture/image2.jpg" alt="Destination Image">
+        <h3>"Seashore Temple"</h3>
+        <h3>"Where rock meets the rhythm of the waves."</h3>
+        <p>Of all the temples and structures in the area, the Mamallapuram Shore Temple is one that will for sure blow your mind away. Believed to be built during the reign of the old Pallavan king Rajasimha/Narasimhavarman II, the structure is one of the oldest temples of significance in South India.Until recently, the shore temple was buried under sand. The temple consists of two sanctums – one dedicated to Lord Shiva and the other, Lord Vishnu. Built of cut stones and blocks of granite, the temple reflects the true essence of Dravidian architecture. A pyramidal Kutina-type tower consists of stepped stories topped by a cupola and finial. The Shore Temple complex was designated as a UNESCO World Heritage Site along with other temples and monuments of Mamallapuram. Marco Polo in his travels have identified the Seven Pagodas of Mamallapuram.</p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/mamallapuram-shore-temple" target="_blank">Read More</a>
+    </div>
+    <div class="destination">
+        <img src="picture/image3.jpg" alt="Destination Image">
+        <h3>"Azhagar Temple"</h3>
+        <h3>"A divine retreat nestled in the lush hills of Madurai."</h3>
+        <p>Azhagar Kovil temple is a popular destination in Madurai. It is one of the 108 abodes of Lord Vishnu, who is worshipped in the name of Kallazhagar.Known for the brilliant sculptures and mandapams, the temple is situated in a beautiful spot, surrounded by hills and greenery. Legend has it that Lord Vishnu came here to give away Goddess Meenakshi to Lord Sundareswarar in marriage. A stupendous tower welcomes the devotees at the entrance.The mandapam and the exquisite pillars leave one in awe. The famous Chithirai festival held in April/May is a spectacle to watch. It is marked by a grand procession of the deity for the holy dip in Vaigai river. The colourful festival attracts people from various parts of the state. The pillars of mandapam are the finest specimens of Nayaka art. Carvings related to mythologies are displayed here.</p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/alagar-kovil-madurai" target="_blank">Read More</a>
+    </div>
+    <div class="destination">
+        <img src="picture/image4.jpg" alt="Destination Image">
+        <h3>"Arunchalaeswarar Temple"</h3>
+        <h3>"A sacred beacon of devotion at the foot of the holy Arunachala Hill."</h3>
+        <p>Tiruvannamalai Hill lies a majestic jewel of the ancient world, the Arunchalaeswarar Temple. Its towering presence stands tall, reaching towards the heavens with a grandeur that takes your breath away. It is a masterpiece of art and architecture, a sacred site that has withstood the passage of time and remains an enduring symbol of spiritual devotion and religious fervour.
+            The temple's aura is truly magical, as the air is filled with the gentle whispers of sacred chants and the fragrance of flowers and incense wafts on the breeze, awakening your senses and immersing you in a world of divine transcendence. The temple's walls are adorned with intricate carvings and paintings, each a masterpiece in its own right, depicting the legends and stories of ancient dynasties and kingdoms that once ruled these lands.At the heart of the temple lies the Annamalaiyar Lingam, the embodiment of Lord Shiva and a sublime symbol of the cosmic energy that binds the universe together. </p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/arunachaleshwar-temple" target="_blank">Read More</a>
+    </div>
+    <div class="destination">
+        <img src="picture/image5.jpg" alt="Destination Image">
+        <h3>"Srivilliputhur Aandhal Temple"</h3>
+        <h3>"A living testament to the grandeur of South Indian temple architecture."</h3>
+        <p>The magnificent Srivilliputhur Andal Temple is a beacon of sacred splendour, radiating divine grace and beauty for all to admire and bask in its glory. This ancient temple, nestled in the lush green hills of Tamil Nadu, is a true marvel of Indian architecture and a testament to the rich cultural heritage of the land.As the story goes, Andal was found as a baby beneath a Tulsi plant by a cowherd, who raised her as his daughter. As she grew, Andal displayed an extraordinary devotion towards Lord Vishnu, singing and composing hymns in his praise with a passion that was unmatched. It is said that her devotion was so pure that Lord Vishnu himself appeared before her and granted her the boon of union with him in his divine form.</p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/srivilliputhur-andal-temple" target="_blank">Read More</a>
+    </div>
+    <div class="destination">
+        <img src="picture/image6.jpg" alt="Destination Image">
+        <h3>"Sri Meenakshi Amman temple"</h3>
+        <h3>"A kaleidoscope of color and spirituality in the city of temples."</h3>
+        <p>Madurai is synonymous with Sri Meenakshi Amman temple. A famous pilgrimage spot, the temple is renowned for its classic architectural style, stupendous structures and carvings.The temple abounds in legends and myths. It is believed that Indra discovered the presence of Swayambhu lingam during his trip through Madurai and he enshrined it. This temple finds mention in ancient texts and was completely devastated in 1310. The temple was restored to its original glory in the 14th century. It is quite an architectural marvel with 14 temple towers with a height ranging between 45-50 metres. A 1000 pillared hall is another major feature with exquisitely sculpted pillars. There are musical pillars which produce sounds of different scales.</p>
+        <a href="https://www.tamilnadutourism.tn.gov.in/destinations/meenakshi-amman-temple">Read More</a>
+    </div>
+</div>
+</body>
+<br><br>
+<footer>
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Name">
+            <select>
+                <option>Your Home Town</option>
+                <option>Chennai</option>
+                <option>Tiruvallur</option>
+            </select>
+            <select>
+                <option>Where would you like to go?</option>
+                <option>Thanjavur</option>
+                <option>Kanchipuram</option>
+                <option>Madurai</option>
+                <option>Thiruvannamalai</option>
+                <option>Srirangam</option>
+                
+            </select>
+            <input type="text" placeholder="Contact Number">
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </section>
+    
+</footer>
+</html>
